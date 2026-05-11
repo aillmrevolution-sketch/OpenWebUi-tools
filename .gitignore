@@ -1,0 +1,213 @@
+```
+# Configuration files
+*.json
+
+# Environment specific files
+.env*
+!.env.example
+!.env.template
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.conda/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+.coverage
+htmlcov/
+.coverage.*
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compression files
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+.conda/
+*.egg-info/
+.coverage
+htmlcov/
+.coverage.*
+.mypy_cache/
+.pytest_cache/
+.tox/
+.hypothesis/
+
+# Node specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+node_modules/
+dist/
+build/
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+*.tar.gz
+target/
+.gradle/
+build/
+!target/*.xml
+
+# C/C++ specific
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.obj
+*.lib
+*.la
+*.lo
+*.gch
+*.pch
+*.ilk
+*.manifest
+*.res
+
+# Go specific
+*.o
+*.a
+*.swp
+*~
+.DS_Store
+._*
+.gitattributes
+.svn/
+CVS/
+
+# Ruby specific
+*.gem
+*.rbc
+coverage/
+InstalledFiles
+pkg/
+spec/reports/
+spec/examples.txt
+test/tmp/
+test/version_tmp/
+tmp/
+
+# .NET specific
+*.dll
+*.exe
+*.pdb
+*.nupkg
+*.snk
+*.tmp
+*.log
+**/bin/
+**/obj/
+**/backup/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Julia specific
+.julia/
+*.ji
+*.mem
+
+# Zig specific
+zig-cache/
+zig-out/
+
+# Compression and archives
+*.7z
+*.rar
+*.gz
+*.tar
+*.bz2
+*.tbz2
+*.txz
+*.zip
+*.xz
+*.lz
+*.lzma
+*.lzo
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
